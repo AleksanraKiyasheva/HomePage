@@ -46,12 +46,12 @@ a:focus {
 }
 
 .page-header .container {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 40px;
   background-image: url("img/2D.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 150px 200px;
+  background-size: 100px 150px;
   
 }
 
@@ -63,7 +63,7 @@ a:focus {
 .page-title {
   margin: 0;
   margin-bottom: 4px;
-  padding: 0;
+  padding: 0;  
   font-weight: bold;
   font-size: 36px;
   line-height: 48px;
@@ -99,13 +99,13 @@ a:focus {
   margin-bottom: 32px;
 }
 
-.layer1 {
-  float: left; /* Обтекание по правому краю */
-  background: rgb(224, 192, 222); /* Цвет фона */
-  border: 1px solid rgb(255, 255, 255); /* Параметры рамки */
-  padding: 10px; /* Поля вокруг текста */
-  margin-right: 20px; /* Отступ справа */
-  width: 20%; /* Ширина блока */
+.skills-box {
+  float: left;
+  background: rgb(224, 192, 222);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-right: 20px;
+  width: 20%;
   text-align: center;
  }
 
@@ -113,18 +113,7 @@ a:focus {
   margin: 0;
   margin-bottom: 10px;
 
-  background-color: #e8e8e8;
-}
-
-.skills-level {
-  font-size: 12px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #4470c4;
-}
-
-.skills-level-ok {
-  background-color: #bb8fdf;
+  background-color: #cdb5db;
 }
 
 .status p {
@@ -192,6 +181,12 @@ p.contacts-name {
 
 .footer-social_item {
   display: block;
-  margin: 8px;
+  margin-top: auto;  
   text-align: center;
+  
+}
+
+.footer-img {
+padding-top: 10px;
+padding-bottom: 1px;
 }
